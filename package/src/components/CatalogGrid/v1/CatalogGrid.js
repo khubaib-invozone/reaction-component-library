@@ -10,6 +10,8 @@ const GridContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  color: red;
+
 `;
 
 const GridItem = styled.div`
@@ -19,6 +21,7 @@ const GridItem = styled.div`
   margin: 0;
   max-width: 100%;
   padding: 12px;
+  color: yellow;
 
   ${({ containerParams }) => {
     const { is2PerRowWidth, is3PerRowWidth, is4PerRowWidth } = containerParams;

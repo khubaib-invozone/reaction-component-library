@@ -18,6 +18,7 @@ const ProductInfo = styled.div`
   padding-left: 0;
   padding-right: 0;
   padding-top: ${applyTheme("CatalogGridItem.verticalSpacingBetweenImageAndInfo")};
+  color: blue;
 `;
 
 const ProductTitle = styled.aside`
@@ -31,6 +32,7 @@ const ProductVendor = styled.span`
 
 const PriceContainer = styled.div`
   text-align: right;
+  color: red;
 `;
 
 class CatalogGridItem extends Component {
